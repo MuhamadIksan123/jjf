@@ -32,7 +32,7 @@ function Banner() {
             <Image src={`/img/icon/loading.svg`} alt="image section 2" width={50} height={50} className="object-contain rotating-icon" />
           </div>
         ) : (
-          <Image src={`/img/home/hero.png`} alt="Baner" fill className="object-cover lg:object-contain brightness-[85%]" priority />
+          <Image src={`/img/home/hero.png`} alt="Baner" fill className="object-cover brightness-[85%]" priority />
         )}
       </div>
       <div className="relative z-10 container h-full">
